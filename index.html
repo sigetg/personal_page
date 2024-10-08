@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>George Sigety</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="news.html">News</a></li>
+      </ul>
+    </nav>
+    <div id="index-grid">
+      <header class="personal">
+        <img class="headshot"
+          src="https://cdn.glitch.global/20f2c163-a778-4567-88e6-e002d6ddb598/DSCF1762%20(1).JPG?v=1728261588536"
+          alt="Headshot of George Sigety"
+        />
+        <h1 class="my-name">George Sigety</h1>
+        <h3 class="grad-year">Boston College Class of 2025</h3>
+        <p class="personal-title">
+          Bachelor of Arts in Computer Science, Minor in Accounting for Finance
+          and Consulting
+        </p>
+        <ul class="contact">
+          <li>
+            <img class="icon"
+              src="https://cdn.glitch.global/20f2c163-a778-4567-88e6-e002d6ddb598/phone%20(1).png?v=1728347665691"
+              alt="phone icon"
+            />
+            <a href="tel:+12157710756">215-771-0756</a>
+          </li>
+          <li>
+            <img class="icon"
+              src="https://cdn.glitch.global/20f2c163-a778-4567-88e6-e002d6ddb598/gmail.png?v=1728348621823"
+              alt="email icon"
+            />
+            <a href="mailto:sigetyg@bc.edu">sigetyg@bc.edu</a>
+          </li>
+          <li>
+            <img class="icon"
+              src="https://cdn.glitch.global/20f2c163-a778-4567-88e6-e002d6ddb598/github.png?v=1728348565474"
+              alt="github icon"
+            />
+            <a href="https://github.com/sigetg/">sigetg</a>
+          </li>
+          <li>
+            <img class="icon"
+              src="https://cdn.glitch.global/20f2c163-a778-4567-88e6-e002d6ddb598/curriculum-vitae.png?v=1728355280026"
+              alt="resume icon"
+            />
+            <a href="https://cdn.glitch.global/20f2c163-a778-4567-88e6-e002d6ddb598/GLS%20Resume%20FInal%20(2).pdf?v=1728355184226">Resume</a>
+          </li>
+        </ul>
+      </header>
+      <main>
+        <section id="description">
+          <h1>About</h1>
+          <p>
+            George Sigety is a current Computer Science major at Boston College,
+            pursuing a Bachelor of Arts with a minor in Accounting for Finance
+            and Consulting, anticipated in May 2025. He has a strong foundation
+            in programming and networking, demonstrated through coursework in
+            Wireless and Mobile Networks and Computer Networks. His passion for
+            technology is complemented by his leadership roles, including
+            serving as President of the Boston College Cooking Club, where he
+            manages events for a club with over 1,000 members, and as an E-board
+            Member of the Boston College Computer Science Society, organizing
+            workshops and meetings for fellow tech enthusiasts. Currently, he
+            works as a Teacher's Assistant for the Wireless and Mobile Networks
+            course, helping students grasp complex concepts and manage course
+            materials. His practical experience extends to software development,
+            having contributed to projects like a Ruby on Rails application for
+            class waitlisting at Boston College and developing a prototype for a
+            medical lab testing service at Navus Health. In addition to his
+            technical skills in programming languages such as C, Python, Swift,
+            Ruby, and Java, he has a creative side with proficiency in Adobe
+            Photoshop and Illustrator. He recently completed a Spanish Language
+            Immersion program in Madrid, enhancing his cultural understanding
+            and communication skills. Outside of academia, he enjoys cooking,
+            playing guitar, and staying active through skiing and crew. As he
+            continues his journey in the tech world, he is excited to combine
+            his programming skills with his passion for leadership and
+            collaboration to create innovative solutions.
+          </p>
+        </section>
+        <section id="news">
+          <h1>News</h1>
+          <table>
+            <tr>
+              <td>Studying at Universidad Carlos III de Madrid</td>
+              <td>Fall 2024</td>
+            </tr>
+            <tr>
+              <td>Started Senior Year at Boston College</td>
+              <td>Fall 2024</td>
+            </tr>
+            <tr>
+              <td>Acting as Teacher's assistant for CSCI3390</td>
+              <td>Spring 2024</td>
+            </tr>
+          </table>
+        </section>
+        <section id="projects">
+      <h1>Projects</h1>
+      <ul>
+        <li>
+          <h3 class="project-header">
+            <a href="project1.html">EagleVision</a>
+            <a href="https://github.com/sigetg/eagle_vision"
+              ><img
+                class="medium-icon"
+                src="https://cdn.glitch.global/20f2c163-a778-4567-88e6-e002d6ddb598/github.png?v=1728348565474"
+                alt="github icon"
+            /></a>
+          </h3>
+          <p>
+            A rails app to allow BC students to submit waitlist requests for
+            desired classes. The app collects Boston College course and
+            registration data from the EagleApps API (not included in this repo
+            sadly) and allows users to search through it to find a section to
+            submit a waitlist request for. Persists very little data in the
+            database, as all data apart from user data is pulled from and posted
+            to the EagleApps API. Uses the ruby gems devise, omniauth (google
+            oauth), httparty, and rolify. Built with rails 7.0.7 and ruby 3.2.2.
+          </p>
+        </li>
+        <li>
+          <h3 class="project-header">
+            <a href="project2.html">TapPlease</a>
+            <a href="https://github.com/sigetg/TapPlease"
+              ><img
+                class="medium-icon"
+                src="https://cdn.glitch.global/20f2c163-a778-4567-88e6-e002d6ddb598/github.png?v=1728348565474"
+                alt="github icon"
+            /></a>
+          </h3>
+          <p>
+            An on campus food delivery app built in Swift/UI. Users have the
+            ability to submit requests for food delivery, as well as accept
+            these requests as a deliverer. In return for delivering food to
+            students, deliverers will be able to buy themselves a meal on the
+            requester's meal plan card. Implements messeging with real-time
+            pulls from cloud firestore.
+          </p>
+        </li>
+        <li>
+          <h3 class="project-header">
+            <a href="project3.html">CSSH</a>
+            <a href="https://github.com/sigetg/cssh"
+              ><img
+                class="medium-icon"
+                src="https://cdn.glitch.global/20f2c163-a778-4567-88e6-e002d6ddb598/github.png?v=1728348565474"
+                alt="github icon"
+            /></a>
+          </h4>
+          <p>
+            A rudimentary shell built in the C programming language. It was
+            completed as part of the Boston College Computer System course
+            (csci2271).
+          </p>
+        </li>
+      </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

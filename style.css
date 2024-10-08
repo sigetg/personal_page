@@ -1,0 +1,152 @@
+body {
+  font-family: "Space Grotesk", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+#index-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+@media screen and (max-width: 750px) {
+  #index-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.personal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #5633a1;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  max-width: 300px;
+  list-style-type: none;
+  padding: 0px;
+  gap: 10px;
+}
+
+nav a:link {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border: 2px solid;
+  padding: 5px 10px;
+}
+nav a:visited {
+  text-decoration: none;
+  color: white;
+}
+nav a:hover {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+nav a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.headshot {
+  height: auto; 
+  width: auto;
+  max-width: 80%;
+  border-radius: 50%;
+  padding-top: 20px;
+}
+
+.contact {
+  list-style: none;
+}
+
+.contact li {
+  display: flex;
+  padding: 5px;
+  
+}
+
+#description, #news, #projects {
+  background-color: #1c1c1c;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.icon {
+  width: 20px;
+  padding: 0px 5px;
+}
+
+.medium-icon {
+    width: 30px;
+    padding: 0px 10px;
+    filter: grayscale(100%);
+
+}
+
+.medium-icon:hover {
+  filter: grayscale(0%);
+}
+
+.large-icon {
+    width: 40px;
+    padding: 0px 15px;
+    filter: grayscale(100%);
+}
+
+.large-icon:hover {
+  filter: grayscale(0%);
+}
+
+.personal-title, .grad-year, .my-name {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.my-name {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+#projects ul li {
+  padding: 5px 0px;
+}
+
+.about,
+.projects,
+.news,
+.project {
+  padding: 30px;
+}
+
+.projects ul, #projects ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.project h1 {
+  display: flex;
+}
+
+.project-header {
+  display: flex;
+}
